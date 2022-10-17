@@ -1,0 +1,25 @@
+{
+  "name": "goit-hw-01",
+  "version": "1.0.0",
+  "description": "home-work-01",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "node",
+    "homework"
+  ],
+  "author": "Ella Kadriaieva",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  },
+  "dependencies": {
+    "commander": "^9.4.1",
+    "nanoid": "^3.3.4",
+    "yargs": "^17.6.0"
+  }
+}
